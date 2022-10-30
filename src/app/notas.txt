@@ -1,0 +1,20 @@
+Para agregar un nuevo componente:
+-----------------------------------------------------------------------
+- Crear componente con: 
+
+import {Component} from '@angular/core'
+@Component({
+    selector: 'nombre de la etiqueta',
+    templateUrl: 'ruta del html desde el archivo'
+})
+export class lalaland{
+    ...
+}
+-----------------------------------------------------------------------
+- Crear componen.html
+-----------------------------------------------------------------------
+- Impotar datos en app.module.ts, tanto en imports como en declarations
+-----------------------------------------------------------------------
+- Incluir la etiqueta donde cargar el componenteç
+-----------------------------------------------------------------------
+
