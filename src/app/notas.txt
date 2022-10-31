@@ -1,4 +1,4 @@
-Para agregar un nuevo componente:
+Para agregar un nuevo componente: ng generate component ruta (ng g c ruta)  
 -----------------------------------------------------------------------
 - Crear componente con: 
 
@@ -18,3 +18,6 @@ export class lalaland{
 - Incluir la etiqueta donde cargar el componenteç
 -----------------------------------------------------------------------
 
+Para agregar un nuevo módulo: ng generate module NombreModulo (ng g m NombreModulo)
+
+Para que los botones no hagan submit, editar la propiedad (ngSubmit), importando el FormsModule
